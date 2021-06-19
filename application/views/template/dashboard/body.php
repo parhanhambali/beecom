@@ -12,7 +12,7 @@
                     Administrasi
                 </a>
 
-                <ul id="administrasi" class="collapse">
+                <ul id="administrasi" class="collapse menu">
                     <li><?php echo anchor('dashboard/kategori', 'Kategori'); ?></li>
                 </ul>
             </li>

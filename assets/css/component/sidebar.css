@@ -47,3 +47,8 @@ a.dropdown-sidebar-perusahaan::after {
 a.dropdown-sidebar-perusahaan[aria-expanded="true"] {
 	background: #161313;
 }
+
+ul ul li a {
+	background: #161313;
+	padding-left: 40px !important;
+}
