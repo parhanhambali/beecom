@@ -3,12 +3,12 @@
         <ul class="menu">
             <li><?php echo anchor('dashboard', 'Dashboard'); ?></li>
             <li><?php echo anchor('dashboard/karyawan', 'Karyawan'); ?></li>
-            <li><?php echo anchor('dashboard/gaji-dan-tunjangan', 'Gaji & Tunjangan'); ?></li>
+            <li><?php echo anchor('dashboard/gaji-dan-tunjangan', 'Gaji& Tunjangan'); ?></li>
             <li><?php echo anchor('dashboard/absensi', 'Absensi'); ?></li>
             <li><?php echo anchor('dashboard/posisi', 'posisi'); ?></li>
             <li><?php echo anchor('dashboard/departemen', 'Departemen'); ?></li>
             <li>
-                <a href="#administrasi" class="dropdown-toggle dropdown-sidebar-perusahaan" data-toggle="collapse">
+                <a href="#administrasi" aria-expanded="false" class="dropdown-toggle dropdown-sidebar-perusahaan" data-toggle="collapse">
                     Administrasi
                 </a>
 

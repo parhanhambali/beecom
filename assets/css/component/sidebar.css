@@ -43,3 +43,7 @@ a.dropdown-sidebar-perusahaan::after {
 	top: 50%;
 	transform: translateY(-50%);
 }
+
+a.dropdown-sidebar-perusahaan[aria-expanded="true"] {
+	background: #161313;
+}
