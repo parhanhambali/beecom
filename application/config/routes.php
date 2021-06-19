@@ -58,3 +58,6 @@ $route['register/proses'] = 'user/prosesRegister';
 $route['login'] = 'user/login';
 $route['login/proses'] = 'user/prosesLogin';
 $route['logout'] = 'user/logout';
+
+// Route Untuk Mengatur Karyawan
+$route['dashboard/karyawan'] = 'karyawan/index';
