@@ -9,6 +9,21 @@ class Kategori extends CI_Controller {
     public function index()
     {
         $data['title'] = "Kategori";
+
+        $data['kontenDinamis'] = "pages/kategori/list";
         $this->load->view('template/dashboard/body', $data);
+    }
+
+    public function create()
+    {
+        $data['title'] = "Kategori";
+        $data['kontenDinamis'] = "pages/kategori/form";
+
+        $this->load->view('template/dashboard/body', $data);
+    }
+
+    public function store()
+    {
+
     }
 }

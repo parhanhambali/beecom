@@ -32,7 +32,9 @@
 
         <div class="container-fluid">
             
-            <h3><?php echo $title ?></h3>
+            <h3><?php echo $title; ?></h3>
+
+            <?php $this->load->view($kontenDinamis); ?>
 
             <!-- INI UNTUK KONTENNYA -->
         </div>
