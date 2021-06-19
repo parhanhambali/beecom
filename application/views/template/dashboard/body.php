@@ -8,7 +8,7 @@
             <li><?php echo anchor('dashboard/posisi', 'posisi'); ?></li>
             <li><?php echo anchor('dashboard/departemen', 'Departemen'); ?></li>
             <li>
-                <a href="#administrasi" class="dropdown-toggle" data-toggle="collapse">
+                <a href="#administrasi" class="dropdown-toggle dropdown-sidebar-perusahaan" data-toggle="collapse">
                     Administrasi
                 </a>
 
