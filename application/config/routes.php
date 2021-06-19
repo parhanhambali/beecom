@@ -61,3 +61,6 @@ $route['logout'] = 'user/logout';
 
 // Route Untuk Mengatur Karyawan
 $route['dashboard/karyawan'] = 'karyawan/index';
+
+// Route untuk Menu Kategori
+$route['dashboard/administrasi/kategori'] = 'kategori/index';

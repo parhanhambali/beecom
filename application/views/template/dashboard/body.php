@@ -1,3 +1,4 @@
+<?php $this->load->view('template/dashboard/header', $title); ?>
 <div class="dashboard">
     <nav id="sidebar" class="bg-dark">
         <ul class="menu">
@@ -13,7 +14,7 @@
                 </a>
 
                 <ul id="administrasi" class="collapse menu">
-                    <li><?php echo anchor('dashboard/kategori', 'Kategori'); ?></li>
+                    <li><?php echo anchor('dashboard/administrasi/kategori', 'Kategori'); ?></li>
                 </ul>
             </li>
             <li><?php echo anchor('logout', 'Logout'); ?></li>
@@ -31,9 +32,11 @@
 
         <div class="container-fluid">
             
-            <?php echo $this->router->fetch_class(); ?>
+            <h3><?php echo $title ?></h3>
 
             <!-- INI UNTUK KONTENNYA -->
         </div>
     </div>
 </div>
+
+<?php $this->load->view('template/dashboard/footer'); ?>
