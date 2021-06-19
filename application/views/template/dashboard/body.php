@@ -1,8 +1,8 @@
 <div class="dashboard">
     <nav id="sidebar" class="bg-dark">
         <ul class="menu">
-            <li><?php echo anchor('dashboard', 'Dashboard'); ?></li>
-            <li><?php echo anchor('dashboard/karyawan', 'Karyawan'); ?></li>
+            <li class="<?php if( $this->router->fetch_class() == 'dashboard') { echo "active"; } ?>"><?php echo anchor('dashboard', 'Dashboard'); ?></li>
+            <li class="<?php if( $this->router->fetch_class() == 'karyawan') { echo "active"; } ?>"><?php echo anchor('karyawan', 'Karyawan'); ?></li>
             <li><?php echo anchor('dashboard/gaji-dan-tunjangan', 'Gaji& Tunjangan'); ?></li>
             <li><?php echo anchor('dashboard/absensi', 'Absensi'); ?></li>
             <li><?php echo anchor('dashboard/posisi', 'posisi'); ?></li>
@@ -30,6 +30,9 @@
         </nav>
 
         <div class="container-fluid">
+            
+            <?php echo $this->router->fetch_class(); ?>
+
             <!-- INI UNTUK KONTENNYA -->
         </div>
     </div>

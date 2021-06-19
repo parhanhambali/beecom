@@ -12,6 +12,7 @@
     
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/fontawesome-free-5.15.3-web/css/all.min.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/bootstrap-4.3.1-dist/css/bootstrap.min.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/halaman/dashboard.css?e5235rer2356e3r') ?>">
 
