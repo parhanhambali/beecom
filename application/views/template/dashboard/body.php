@@ -1,5 +1,5 @@
 <div class="dashboard">
-    <nav id="sidebard" class="bg-dark">
+    <nav id="sidebar" class="bg-dark">
         <ul class="menu">
             <li><?php echo anchor('dashboard', 'Dashboard'); ?></li>
             <li><?php echo anchor('dashboard/karyawan', 'Karyawan'); ?></li>
@@ -7,6 +7,15 @@
             <li><?php echo anchor('dashboard/absensi', 'Absensi'); ?></li>
             <li><?php echo anchor('dashboard/posisi', 'posisi'); ?></li>
             <li><?php echo anchor('dashboard/departemen', 'Departemen'); ?></li>
+            <li>
+                <a href="#administrasi" class="dropdown-toggle" data-toggle="collapse">
+                    Administrasi
+                </a>
+
+                <ul id="administrasi" class="collapse">
+                    <li><?php echo anchor('dashboard/kategori', 'Kategori'); ?></li>
+                </ul>
+            </li>
             <li><?php echo anchor('logout', 'Logout'); ?></li>
         </ul>
     </nav>

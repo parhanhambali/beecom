@@ -1,3 +1,5 @@
-<footer class="navbar bg-dark navbar-dark footer-perusahaan">
-		<span class="ml-auto">@Perusahaan</span class="ml-auto">
-	</footer> 
+		<script type="text/javascript" src="<?php echo base_url('assets/js/jquery-3.6.0.min.js'); ?>"></script>
+    	<script type="text/javascript" src="<?php echo base_url('assets/js/script.js'); ?>"></script>
+		<script type="text/javascript" src="<?php echo base_url('assets/bootstrap-4.3.1-dist/js/bootstrap.min.js'); ?>"></script>
+	</body>
+</html>
